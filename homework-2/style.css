@@ -1,0 +1,119 @@
+*{
+Box-sizing: border-box;
+Margin: 0;
+Padding: 0;
+} 
+
+html{
+ background-color: #F2F2F2;
+}
+
+body{
+margin: auto;
+width: 60%;
+background-color: white;
+font-family: Open Sans, sans-serif;
+}
+
+.site-header{
+  color: white;
+  background-color:#00377B;
+  padding: 30px;
+  border-bottom: 2px solid #77D6EB;
+}
+
+.container{
+/* line-height:1; */
+padding: 35px;
+}
+
+.search{
+ background-color:#F1EDEE; 
+ margin-top:10px;
+}
+
+h2{
+  line-height: 200%;
+}
+
+h3{
+ padding-top: 10px; 
+}
+
+.search__choice{
+ display: inline-block;
+ vertical-align: text-top;
+ padding:15px ;
+}
+
+.search__choice label{
+ display:block;
+  margin: 5px;
+  padding-top: 5px;
+/*  margin-left:15px; */
+/*  padding: 0px 15px; */
+}
+
+.animal{
+/* float:left; */
+max-width: 32%;
+padding-top:10px;
+/* height:400px; */
+display: inline-block;
+vertical-align: top;
+}
+
+.animal__name{
+ font-family: oswald; 
+}
+  
+img{
+max-width:85%;
+}  
+  
+.animal__trait{
+ background-color:#93DDEF; 
+ border-radius: 10px;
+ padding:0px 7px;
+/*  margin:2px 5px; */
+ display: inline-block;
+ font-size: x-small;
+}
+
+.footer{
+clear: both;
+font-size: 0;
+}
+.footer__block{
+  display: inline-block;
+  width:33%;
+  height:200px;
+}
+
+.footer__block a{
+  color: white;
+  font-family: oswald;
+  font-size: 30px;
+  opacity: 0.6;
+  text-decoration: none;
+  text-align: center;
+  /*why did this work? what does the block on the display do? */
+  display: block;
+  margin: 0 auto;
+  margin-top: 25%;
+}
+
+.footer__block--donate{
+  background:linear-gradient(rgba(30, 9, 110, 0.8),rgba(30, 9, 110, 0.4)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137');
+} 
+
+.footer__block--volunteer{
+   background:linear-gradient(rgba(30, 9, 110, 0.8),rgba(30, 9, 110, 0.4)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718');
+}
+
+.footer__block--location{
+  background:linear-gradient(rgba(30, 9, 110, 0.8),rgba(30, 9, 110, 0.4)),
+            no-repeat center/cover url('https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805');
+}
